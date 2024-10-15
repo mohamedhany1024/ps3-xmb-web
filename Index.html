@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<video id="ps3" autoplay muted loop>
+		<source src="Ps3 Avi0000-1440.mp4" type="video/mp4">
+	</video>
+	<!--<h2 id="sony">Sony Computers Entertainement</h2>-->
+	<img id="sony" src="ps3_logo.png" alt="">
+	<!--<img src="icons.png" id="icons"-->
+	<div id="icons" class="icon-row">
+		<img class="menuItem" width="60" src="icons/Icons.1.png" alt="" submenu--data='[{"name": "icons.png", "actionType": "openPhoto", "actionArg": "icons.png"}, {"name": "IMG_2024617_11_35_AM"}, {"name": "Screenshot_2023159_9_57_PM"}]'>
+		<img class="menuItem" width="60" src="icons/Icons.16.png" alt="" submenu--data='[{"name": "Music"}, {"name": "Audio1.wav"}, {"name": "yehemek_fe2eh.mp3"}]'>
+		<img class="menuItem" width="60" src="icons/Icons.18.png" alt="" submenu--data='[{"name": "Mine3"}, {"name": "tilt"}]'>
+		<img class="menuItem" width="60" src="icons/Icons.39.png" alt="" id="games" submenu--data='[{"name": "Minecraft", "actionType": "openGame", "actionArg": "Minecraft.html"}, {"name": "tilt", "actionType": "openGame", "actionArg": "tilt.html"}, {"name": "Birosol", "actionType": "openGame", "actionArg": "birosol.html"}, {"name": "BATTLEFIELD 4"}, {"name": "blur"}]'>
+		<img class="menuItem" width="60" src="icons/Icons.2.png" alt="">
+		<img class="menuItem" width="60" src="icons/Icons.17.png" alt="">
+		<img class="menuItem" width="60" src="icons/Icons.24.png" alt="">
+		<img class="menuItem" width="60" src="icons/Icons.20.png" alt="">
+		<img class="menuItem" width="60" src="icons/Icons.21.png" alt="">
+		<img class="menuItem" width="60" src="icons/Icons.22.png" alt="">
+		<img class="menuItem" width="60" src="icons/Icons.23.png" alt="">
+	</div>
+	<div class="submenuOptions" id="submenuOptions">
+		<p id="birosol" class="game menuOption" onclick="openGame('birosol')">Birosol</p>
+		<p id="tilt" class="game menuOption"onclick="openGame('tilt')">tilt</p>
+		<p class = "game menuOption"id="Minecraft" onclick="openGame('Minecraft')">Minecraft</p>
+	</div>
+	
+	<script src="script.js"></script>
+</body>
+</html>
